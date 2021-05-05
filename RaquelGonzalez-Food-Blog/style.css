@@ -1,0 +1,156 @@
+/* === Typography === */
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif; 
+    font-size: 14pt;
+    line-height: 18pt;
+    color: #000000;
+}
+
+nav {
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 18pt;
+    line-height: 18pt;
+}
+
+nav a {
+    color: #cdcdcd;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 72pt;
+    line-height: 18pt;
+}
+
+h2 {
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 24pt;
+    line-height: 18pt;
+}
+
+footer {
+    font-family: 'Helvetica';
+    font-style: oblique;
+    color: #ffffff;
+    font-size: 10pt;
+    line-height: 18pt;
+}
+
+/* === Backgrounds === */
+
+header {
+    background-color: #000000;
+}
+
+main {
+    background-color: #cdcdcd;
+}
+
+body {
+    background-color: #cdcdcd;
+}
+
+footer {
+    background-color:  #000000;
+}
+
+#splash {
+    background-image: url(heading.jpg);
+    background-size: cover;
+}
+
+/* === Box Model === */
+
+#splash {
+    height: 400px;
+}
+
+nav {
+    padding: 30px;
+}
+
+nav a {
+    margin-right: 2%;
+}
+
+footer {
+    padding: 25px;
+}
+
+#foodarticles {
+    padding: 35px;
+}
+
+article {
+    margin-bottom: 50px;
+}
+
+.floatleft {
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    margin: auto;
+}
+
+main { 
+    display: grid;
+    grid-template-columns: 75% 25%;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#splash {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-left: 32px;
+    margin-right: 32px;
+    padding-top: 175px; 
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+#advertisement {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 30%;
+    background-color: #ff0000;
+    color: #000000;
+    padding: 15px;
+}
+
+#splash {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
